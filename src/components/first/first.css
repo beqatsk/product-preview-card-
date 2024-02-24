@@ -37,3 +37,23 @@ h1 {
   margin-top: 24px;
   line-height: 1.64;
 }
+.price-title {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-top: 29px;
+}
+.new-price {
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: bold;
+  color: #3d8168;
+}
+.old-price {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.77;
+  color: #6c7289;
+  text-decoration-line: line-through;
+}
