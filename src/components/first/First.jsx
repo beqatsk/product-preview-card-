@@ -5,7 +5,7 @@ import Cart from "/images/Cart.png";
 export default function First() {
   return (
     <div className="container">
-      <img src={Bitmap} alt="bitmap" />
+      <img src={Bitmap} alt="bitmap" className="bitmap" />
       <div className="wrapper">
         <h2>PERFUME</h2>
         <h1>Gabrielle Essence Eau De Parfum</h1>
