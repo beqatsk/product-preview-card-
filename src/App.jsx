@@ -1,13 +1,8 @@
-//import "./reset.css";
+import "./reset.css";
 import First from "./components/first/First";
 import Second from "./components/second/Second";
 function App() {
-  return (
-    <>
-      <First />
-      <Second />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
