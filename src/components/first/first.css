@@ -1,0 +1,39 @@
+.container {
+  width: 600px;
+  height: 450px;
+  flex-grow: 0;
+  padding: 0 31.5px 0 0;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  border: 1px solid red;
+}
+h2 {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: #6c7289;
+  margin-top: 32px;
+}
+h1 {
+  width: 236px;
+  height: 96px;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1c232b;
+  margin-top: 20px;
+}
+.paragraph {
+  width: 237px;
+  height: 92px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c7289;
+  margin-top: 24px;
+  line-height: 1.64;
+}
