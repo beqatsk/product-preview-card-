@@ -1,6 +1,7 @@
 import "../../reset.css";
 import "./first.css";
 import Bitmap from "/images/Bitmap.png";
+import Cart from "/images/Cart.png";
 export default function First() {
   return (
     <div className="container">
@@ -16,6 +17,10 @@ export default function First() {
           <span className="new-price">$149.99</span>
           <span className="old-price">$169.99</span>
         </div>
+        <button>
+          <img src={Cart} alt="cart" className="cart-image" />
+          Add to cart
+        </button>
       </div>
     </div>
   );
